@@ -24,6 +24,7 @@ for c in range(4):
 for k, v in jogador.items():
     print(f'O campo {k} tem o valor {v}.')
 '''
+del chaves, valores
 print("-="*30)
 
 print(f'O jogador {jogador["nome"]} jogou {jogador["partidas"]} partidas.')
