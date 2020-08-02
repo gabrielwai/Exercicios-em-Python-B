@@ -1,4 +1,3 @@
-import numpy as np
 jogador = dict()
 gols = []
 jogador['nome'] = str(input('Nome do jogador: '))
