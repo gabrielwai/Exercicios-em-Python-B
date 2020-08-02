@@ -1,3 +1,4 @@
+import numpy as np
 jogador = dict()
 gols = []
 jogador['nome'] = str(input('Nome do jogador: '))
@@ -18,6 +19,11 @@ chaves = list(jogador.keys())
 valores = list(jogador.values())
 for c in range(4):
     print(f'O campo {chaves[c]} tem o valor {valores[c]}.')
+'''
+    OU
+for k, v in jogador.items():
+    print(f'O campo {k} tem o valor {v}.')
+'''
 print("-="*30)
 
 print(f'O jogador {jogador["nome"]} jogou {jogador["partidas"]} partidas.')
